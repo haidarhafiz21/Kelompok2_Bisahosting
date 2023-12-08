@@ -1,0 +1,298 @@
+doctype html
+head
+  // Start meta tags
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='Bisahosting layanan web server termurah dan teraman')
+  // End meta tags
+  // Start Bootstrap CSS
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  link(rel='stylesheet' href='css/beranda.css')
+  script(src='https://kit.fontawesome.com/72eca601e0.js' crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet')
+  title Bisahosting | Jasa Hosting Termurah
+  // End Bootstrap CSS
+// Start Home
+// Start Navbar
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top
+  .container
+    a.navbar-brand(href='index.html') Bisahosting
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNav.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href='index.html')
+            | Beranda
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='tentang.html') Tentang
+        li.nav-item
+          a.nav-link(href='halaman.html') Halaman
+        li.nav-item
+          a.nav-link(href='kontak.html') Kontak
+// End Navbar
+// Slider Start
+.bd-example
+  #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+    ol.carousel-indicators
+      li.active(data-target='#carouselExampleCaptions' data-slide-to='0')
+      li(data-target='#carouselExampleCaptions' data-slide-to='1')
+    .carousel-inner
+      .carousel-item.active
+        section#image_slider1
+          .carousel-caption.d-none.d-md-block
+            .container
+              h5 Bisahosting
+              p
+                | Layanan Hosting Profesional &amp; Terpercaya
+              p
+                a(href='#service') Info lebih lanjut
+      .carousel-item
+        section#image_slider2
+          .carousel-caption.d-none.d-md-block
+            .container
+              h5 BUAT SITUS WEB ANDA HIDUP
+              p
+                | Profesional Hosting di Indonesia
+              p
+                a(href='#service') Info lebih lanjut
+    a.carousel-control-prev(href='#carouselExampleCaptions' role='button' data-slide='prev')
+      span.carousel-control-prev-icon(aria-hidden='true')
+      span.sr-only Previous
+    a.carousel-control-next(href='#carouselExampleCaptions' role='button' data-slide='next')
+      span.carousel-control-next-icon(aria-hidden='true')
+      span.sr-only Next
+// Slider End
+// Service Start
+section#service.services.py-5
+  .container.py-5
+    .section-title
+      h2 Layanan
+      h3
+        | Daftar Layanan 
+        span Bisahosting
+    .row.pb-3
+      .col-lg-4.mb-3
+        .card.card-hover.text-center
+          .card-body
+            img.img_icon(src='image/home/l1.png')
+            h4.font-weight-bold.pb-2 Hosting
+            h6
+              | Layanan yang menyediakan ruang penyimpanan dan akses internet untuk website Anda. Hosting memungkinkan website Anda dapat diakses oleh pengunjung dari seluruh dunia.
+      .col-lg-4.mb-3
+        .card.card-hover.text-center
+          .card-body
+            img.img_icon(src='image/home/l2.jpg')
+            h4.font-weight-bold.pb-2 VPS
+            h6
+              | Jenis hosting yang memberikan Anda akses penuh ke server virtual yang hanya digunakan oleh website Anda. Anda bisa mengatur dan mengkonfigurasi server sesuai dengan keinginan Anda.
+      .col-lg-4.mb-3
+        .card.card-hover.text-center
+          .card-body
+            img.img_icon(src='image/home/l3.png')
+            h4.font-weight-bold.pb-2 Domain
+            h6
+              | Buat domain unik yang digunakan untuk mengidentifikasi website Anda di internet. sehingga memudahkan pengunjung untuk mengakses website Anda tanpa harus mengetikkan nomor IP yang rumit.
+// Service End
+// Whyme? Start
+.container.py-5
+  .section-title
+    h2 Hosting Server Dengan Bisahosting
+    h3
+      | Kenapa Harus Kami? 
+      span Bisahosting
+  .row
+    .col-lg-3.col-md-4.col-6.col-6
+      .icon-box
+        i.fas.fa-cart-plus
+        h3
+          a pemesanan mudah
+    .col-lg-3.col-md-4.col-6
+      .icon-box
+        i.fas.fa-user-cog
+        h3
+          a profesional teknikal
+    .col-lg-3.col-md-4.col-6.mt-4.mt-md-0
+      .icon-box
+        i.fas.fa-shield-virus
+        h3
+          a Keamanan terjamin
+    .col-lg-3.col-md-4.col-6.mt-4.mt-lg-0
+      .icon-box
+        i.fas.fa-bed
+        h3
+          a Server 24/7
+    .col-lg-3.col-md-4.col-6.mt-4
+      .icon-box
+        i.fas.fa-umbrella
+        h3
+          a garansi
+    .col-lg-3.col-md-4.col-6.mt-4
+      .icon-box
+        i.fas.fa-hand-holding-usd
+        h3
+          a harga transparan
+    .col-lg-3.col-md-4.col-6.mt-4
+      .icon-box
+        i.fas.fa-percent
+        h3
+          a dapatkan promo
+    .col-lg-3.col-md-4.col-6.mt-4
+      .icon-box
+        i.fas.fa-phone-alt
+        h3
+          a pelayanan cepat
+// Whyme? End
+// Howtoorder Start
+.container.py-5
+  .section-title
+    h2 Cara Pesan Bisahosting
+    h3
+      | Bagaimana Cara Pesan? 
+      span Bisahosting
+  .row.py-5
+    .col-sm
+      img(src='image/home/mau-1.png' alt='')
+      h4 Beritahu Kebutuhan Anda
+      p
+        | Isi lengkap formulir tentang keluhan dan kebutuhan server anda di website Bisahostig.
+    .col-sm
+      img(src='image/home/mau-2.png' alt='')
+      h4 Tunggu Beberapa Saat
+      p
+        | Customer service kami akan langsung menghubungi anda untuk konfirmasi pesanan anda.
+    .col-sm
+      img(src='image/home/mau-3.png' alt='')
+      h4 Jaminan Kepuasan Anda
+      p
+        | Terima beres server anda dan terima garansi ketika terjadi masalah.
+// Howtoorder End
+// Testimoni Start
+.container.py-5
+  .section-title
+    h2 Testimoni
+    h3
+      | Apa Kata Mereka? 
+      span Bisahosting
+  .row
+    .col-md-12
+      #carouselExampleControls.carousel.slide(data-ride='carousel')
+        .carousel-inner
+          .carousel-item.active
+            .row
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t1.png')
+                  .img-text
+                    h2 Moona Hoshinova
+                    p
+                      | &quot;VPS dari Bisahosting memuaskan! Kecepatan dan keandalannya luar biasa. Terbaik!&quot;
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t2.png')
+                  .img-text
+                    h2 Airani Iofifteen
+                    p
+                      | &quot;Bisahosting sangat efisien. Kecepatan akses tinggi dan panel kontrol mudah digunakan.&quot;
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t3.png')
+                  .img-text
+                    h2 Ayunda Risu
+                    p
+                      | &quot;Pendaftaran domain di Bisahosting cepat dan mudah. Pilihan ekstensi yang memukau!&quot;
+          .carousel-item
+            .row
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t4.png')
+                  .img-text
+                    h2 Kureiji Ollie
+                    p
+                      | &quot;Performa VPS Bisahosting luar biasa. Dukungan pelanggan yang responsif, sangat puas!&quot;
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t5.png')
+                  .img-text
+                    h2 Anya Melfissa
+                    p
+                      | &quot;&quot;Hosting web Bisahosting memberikan keamanan dan dukungan 24/7 yang hebat. Sempurna!&quot;&quot;
+              .col-md-4
+                .single-box
+                  .img-area
+                    img(src='image/home/t6.png')
+                  .img-text
+                    h2 Pavolia Reine
+                    p
+                      | &quot;Domain di Bisahosting, harganya bersaing, layanan pelanggan luar biasa. Pilihannya lengkap!&quot;
+        a.carousel-control-prev(href='#carouselExampleControls' role='button' data-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+        a.carousel-control-next(href='#carouselExampleControls' role='button' data-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Next
+// Testimoni End
+// Footer Start
+footer#footer
+  .footer-top
+    .container
+      .row
+        .col-lg-6.col-md-6.footer-contact
+          h3 Bisahosting
+          p
+            | Bisahosting layanan server web termurah dan terbaik
+          p
+            strong Phone:
+            |  +62-888-7777-666
+            br
+            strong Email:
+            |  Bisahosting@bisahosting.com
+            br
+        .col-lg-2.col-md-6.footer-links
+          h4 Tautan
+          ul
+            li
+              a(href='index.html') Beranda
+            li
+              a(href='tentang.html') Tentang
+            li
+              a(href='halaman.html') Halaman
+            li
+              a(href='kontak.html') Kontak
+        .col-lg-4.col-md-6.footer-newsletter
+          h4 Disponsori oleh
+          div(style='margin-top: 5%; text-align: center;')
+            img(src='image/home/s1.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s2.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s3.png' style='width: 20%; margin: 2%;')
+            br
+            img(src='image/home/s4.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s5.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s6.png' style='width: 20%; margin: 2%;')
+  .container.d-md-flex.py-4
+    .mr-md-auto.text-center.text-md-left
+      .copyright
+        | Copyright &copy; 
+        strong
+          span Bisahosting
+        | .
+    .social-links.text-center.text-md-right.pt-3.pt-md-0
+      a(href='#')
+        i.fab.fa-instagram
+      a.instagram(href='#' target='_blank')
+        i.fab.fa-whatsapp
+      a.facebook(href='#')
+        i.fab.fa-facebook
+// Footer End
+// End Home
+// Start JS
+script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+// End JS

@@ -1,0 +1,164 @@
+doctype html
+head
+  // Start meta tags
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='Bisahosting layanan web server termurah dan teraman')
+  // End meta tags
+  // Start Bootstrap CSS
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  link(rel='stylesheet' href='scss/kontak.css')
+  script(src='https://kit.fontawesome.com/72eca601e0.js' crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet')
+  title Bisahosting | Jasa Hosting Termurah
+  // End Bootstrap CSS
+// Start Home
+// Start Navbar
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top
+  .container
+    a.navbar-brand(href='index.html') Bisahosting
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNav.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href='index.html')
+            | Beranda
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='tentang.html') Tentang
+        li.nav-item
+          a.nav-link(href='halaman.html') Halaman
+        li.nav-item
+          a.nav-link(href='kontak.html') Kontak
+// End Navbar
+// Start breadcrumb
+.container.space
+  nav(aria-label='breadcrumb space')
+    ol.breadcrumb
+      li.breadcrumb-item
+        a(href='index.html') Beranda
+      li.breadcrumb-item.active(aria-current='page') Kontak
+// End breadcrumb
+// Start Contact
+.kotak
+  span.big-circle
+  .form
+    .contact-info
+      h3.title Silakan tinggalkan umpan balik
+      p.text
+        | Silakan tinggalkan pesan anda dan jangan lupa mengikuti kami di media sosial berikut. Kami tunggu!
+      .info
+        .information
+          img.icon(src='image/kontak/location.png' alt='')
+          p
+            | Jalan Menceng Lurus No 1001
+        .information
+          img.icon(src='image/kontak/email.png' alt='')
+          p
+            | Bisahosting@bisahosting.com
+        .information
+          img.icon(src='image/kontak/phone.png' alt='')
+          p
+            | +62-888-7777-666
+      .social-media
+        p
+          | Selalu ikuti media sosial kami.
+        .social-icons
+          a(href='#')
+            i.fab.fa-facebook-f
+          a(href='#')
+            i.fab.fa-instagram
+          a(href='#')
+            i.fab.fa-linkedin-in
+          a(href='#')
+            i.fab.fa-whatsapp
+    .contact-form
+      span.circle.one
+      span.circle.two
+      form(method='POST' autocomplete='off')
+        h3.title Kontak Kami
+        .input-container
+          input.input(type='text' name='name')
+          label(for='') Nama
+          span Nama
+        .input-container
+          input.input(type='email' name='email')
+          label(for='') Email
+          span Email
+        .input-container
+          input.input(type='tel' name='phone')
+          label(for='') Nomor Handphone
+          span Nomor Handphone
+        .input-container
+          select.input(name='service')
+            option(value='')
+            option(value='VPS') VPS
+            option(value='Hosting Web') Hosting Web
+            option(value='Domain Web') Domain Web
+          label(for='') Pilih Produk
+          span
+        .input-container.textarea
+          textarea.input(name='message')
+          label(for='') Keluhan
+          span Keluhan
+        input.btm(type='submit' name='submit' value='Send')
+// End Contact
+// Footer Start
+footer#footer
+  .footer-top
+    .container
+      .row
+        .col-lg-6.col-md-6.footer-contact
+          h3 Bisahosting
+          p
+            | Bisahosting layanan server web termurah dan terbaik
+          p
+            strong Phone:
+            |  +62-888-7777-666
+            br
+            strong Email:
+            |  Bisahosting@bisahosting.com
+            br
+        .col-lg-2.col-md-6.footer-links
+          h4 Tautan
+          ul
+            li
+              a(href='index.html') Beranda
+            li
+              a(href='tentang.html') Tentang
+            li
+              a(href='halaman.html') Halaman
+            li
+              a(href='kontak.html') Kontak
+        .col-lg-4.col-md-6.footer-newsletter
+          h4 Disponsori oleh
+          div(style='margin-top: 5%; text-align: center;')
+            img(src='image/home/s1.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s2.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s3.png' style='width: 20%; margin: 2%;')
+            br
+            img(src='image/home/s4.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s5.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s6.png' style='width: 20%; margin: 2%;')
+  .container.d-md-flex.py-4
+    .mr-md-auto.text-center.text-md-left
+      .copyright
+        | Copyright &copy; 
+        strong
+          span Bisahosting
+        | .
+    .social-links.text-center.text-md-right.pt-3.pt-md-0
+      a(href='#')
+        i.fab.fa-instagram
+      a.instagram(href='#' target='_blank')
+        i.fab.fa-whatsapp
+      a.facebook(href='#')
+        i.fab.fa-facebook
+// Footer End
+// Main End
+// Start JS
+script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+// End JS

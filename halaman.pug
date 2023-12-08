@@ -1,0 +1,217 @@
+doctype html
+head
+  // Start meta tags
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='Bisahosting layanan web server termurah dan teraman')
+  // End meta tags
+  // Start Bootstrap CSS
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  link(rel='stylesheet' href='css/halaman.css')
+  script(src='https://kit.fontawesome.com/72eca601e0.js' crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet')
+  title Bisahosting | Jasa Hosting Termurah
+  // End Bootstrap CSS
+// Start Home
+// Start Navbar
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top
+  .container
+    a.navbar-brand(href='index.html') Bisahosting
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNav.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href='index.html')
+            | Beranda
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='tentang.html') Tentang
+        li.nav-item
+          a.nav-link(href='halaman.html') Halaman
+        li.nav-item
+          a.nav-link(href='kontak.html') Kontak
+// End Navbar
+// Start breadcrumb
+.container.space
+  nav(aria-label='breadcrumb space')
+    ol.breadcrumb
+      li.breadcrumb-item
+        a(href='index.html') Beranda
+      li.breadcrumb-item.active(aria-current='page') Halaman
+// End breadcrumb
+// Start Main Blog
+section.blog
+  .container
+    // Start Blog Row
+    .row
+      .col-lg-8.entries
+        .row
+          .col-md-6.d-flex.align-items-stretch
+            article.entry
+              .entry-img
+                img.img-fluid(src='image/pages/b1.jpg' alt='')
+              h2.entry-title
+                a(href='#') Apa itu VPS?
+              .entry-meta
+                ul
+                  li.d-flex.align-items-center
+                    i.far.fa-user
+                    a admin @Bisahosting
+                  li.d-flex.align-items-center
+                    i.far.fa-clock
+                    a
+                      time(datetime='2023-12-03') 2023-12-03
+              .entry-content
+                p
+                  | VPS adalah server virtual pribadi yang bisa Anda atur sendiri. VPS lebih murah dari server khusus, tetapi lebih kuat dan aman dari hosting web biasa. VPS cocok untuk website yang butuh sumber daya besar dan kustomisasi fleksibel.
+                .read-more
+                  a(href='#') Baca Selengkapnya
+          .col-md-6.d-flex.align-items-stretch
+            article.entry
+              .entry-img
+                img.img-fluid(src='image/pages/b2.jpg' alt='')
+              h2.entry-title
+                a(href='#') Apa itu Web Hosting?
+              .entry-meta
+                ul
+                  li.d-flex.align-items-center
+                    i.far.fa-user
+                    a admin @Bisahosting
+                  li.d-flex.align-items-center
+                    i.far.fa-clock
+                    a
+                      time(datetime='2023-12-03') 2023-12-03
+              .entry-content
+                p
+                  | Hosting web adalah layanan penyimpanan website di internet yang bisa Anda buat dan kelola tanpa server sendiri. Setiap jenis hosting web punya kelebihan dan kekurangan sesuai kebutuhan dan anggaran Anda.
+                .read-more
+                  a(href='#') Baca Selengkapnya
+          .col-md-6.d-flex.align-items-stretch
+            article.entry
+              .entry-img
+                img.img-fluid(src='image/pages/b3.jpg' alt='')
+              h2.entry-title
+                a(href='#') Apa itu Domain Web?
+              .entry-meta
+                ul
+                  li.d-flex.align-items-center
+                    i.far.fa-user
+                    a admin @Bisahosting
+                  li.d-flex.align-items-center
+                    i.far.fa-clock
+                    a
+                      time(datetime='2023-12-03') 2023-12-03
+              .entry-content
+                p
+                  | Domain web adalah alamat website yang berisi nama dan ekstensi tertentu, seperti .com, .net, .id, dan lain-lain. Domain web memudahkan pengunjung mengingat dan menulis nama website Anda, serta menunjukkan kredibilitas dan profesionalisme Anda di internet.
+                .read-more
+                  a(href='#') Baca Selengkapnya
+        .blog-pagination
+          ul.justify-content-center
+            li.disabled
+              i.fas.fa-chevron-left
+            li.active
+              a(href='#') 1
+            li
+              a(href='#') 2
+            li
+              a(href='#')
+                i.fas.fa-chevron-right
+      // End blog entries list
+      // Start Blog Sidebar
+      .col-lg-4
+        .sidebar
+          h3.sidebar-title Kategori
+          .sidebar-item.categories
+            ul
+              li
+                a(href='halaman.html')
+                  | VPS 
+                  span (1)
+              li
+                a(href='halaman.html')
+                  | Web Hosting 
+                  span (1)
+              li
+                a(href='halaman.html')
+                  | Domain Web 
+                  span (1)
+          h3.sidebar-title Postingan Terbaru
+          .sidebar-item.recent-posts
+            .post-item.clearfix
+              img(src='image/pages/b1.jpg' alt='')
+              h4
+                a(href='#') Apa itu VPS?
+              time(datetime='2023-12-03') 2023-12-03
+            .post-item.clearfix
+              img(src='image/pages/b2.jpg' alt='')
+              h4
+                a(href='#') Apa itu Web Hosting?
+              time(datetime='2023-12-03') 2023-12-03
+            .post-item.clearfix
+              img(src='image/pages/b3.jpg' alt='')
+              h4
+                a(href='#') Apa itu Domain Web?
+              time(datetime='2023-12-03') 2023-12-03
+      // End Blog Sidebar
+    // End Blog Row
+// End Main Blog
+// Footer Start
+footer#footer
+  .footer-top
+    .container
+      .row
+        .col-lg-6.col-md-6.footer-contact
+          h3 Bisahosting
+          p
+            | Bisahosting layanan server web termurah dan terbaik
+          p
+            strong Phone:
+            |  +62-888-7777-666
+            br
+            strong Email:
+            |  Bisahosting@bisahosting.com
+            br
+        .col-lg-2.col-md-6.footer-links
+          h4 Tautan
+          ul
+            li
+              a(href='index.html') Beranda
+            li
+              a(href='tentang.html') Tentang
+            li
+              a(href='halaman.html') Halaman
+            li
+              a(href='kontak.html') Kontak
+        .col-lg-4.col-md-6.footer-newsletter
+          h4 Disponsori oleh
+          div(style='margin-top: 5%; text-align: center;')
+            img(src='image/home/s1.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s2.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s3.png' style='width: 20%; margin: 2%;')
+            br
+            img(src='image/home/s4.png' style='width: 20%; margin: 2%; margin-left: 0% ; ')
+            img(src='image/home/s5.png' style='width: 20%; margin: 2%;')
+            img(src='image/home/s6.png' style='width: 20%; margin: 2%;')
+  .container.d-md-flex.py-4
+    .mr-md-auto.text-center.text-md-left
+      .copyright
+        | Copyright &copy; 
+        strong
+          span Bisahosting
+        | .
+    .social-links.text-center.text-md-right.pt-3.pt-md-0
+      a(href='#')
+        i.fab.fa-instagram
+      a.instagram(href='#' target='_blank')
+        i.fab.fa-whatsapp
+      a.facebook(href='#')
+        i.fab.fa-facebook
+// Footer End
+// End Home
+// Start JS
+script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+// End JS
